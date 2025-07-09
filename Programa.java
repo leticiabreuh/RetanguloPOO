@@ -8,7 +8,12 @@ public class Produto{
         //Informações
         System.out.println("Altura: ");
         retangulo1.altura=scanner.nextDouble();
+
         System.out.println("Largura: ");
         retangulo1.largura=scanner.nextDouble();
+
+        retangulo1.mensagem();
+
+        scanner.close();
     }
 }

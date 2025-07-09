@@ -10,9 +10,18 @@ public class Retangulo{
         return 2*(altura+largura);
     }
 
-    /*public double diagonal();
+    public double diagonal();{
+        double d= Math.sqrt(altura*altura+largura*largura);
+        return d;
+    }
 
-        return */
+    public void mensagem(){
+        System.out.println("Area: "+area());
+         System.out.println("Perimetro: "+perimetro());
+          System.out.println("Diagonal: "+diagonal());
+    }
+
+       
 
 
 
