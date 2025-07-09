@@ -10,7 +10,7 @@ public class Retangulo{
         return 2*(altura+largura);
     }
 
-    public double diagonal();{
+    public double diagonal(){
         double d= Math.sqrt(altura*altura+largura*largura);
         return d;
     }
