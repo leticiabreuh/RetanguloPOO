@@ -13,6 +13,7 @@ public class Programa{
         System.out.println("Largura: ");
         retangulo1.largura=scanner.nextDouble();
 
+        //Vai exibir os resultados
         retangulo1.mensagem();
 
         scanner.close();
